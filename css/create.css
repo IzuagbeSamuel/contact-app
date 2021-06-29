@@ -1,0 +1,106 @@
+a {
+  text-decoration: none;
+  color: coral;
+}
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.image {
+  background-color: gray;
+  border-radius: 50%;
+  z-index: 99;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 60px;
+  padding: 15px;
+  position: absolute;
+  margin-left: 20px;
+}
+
+.create-form .grid {
+  overflow: hidden;
+  grid-template-columns: 45% 45%;
+  gap: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-form input {
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-bottom: 1px solid coral;
+  width: 70%;
+  outline: none;
+}
+
+.create-form input.phone-number {
+  width: 100%;
+}
+
+.create-form input.email {
+  width: 100%;
+}
+
+.create-form input.address {
+  display: none;
+}
+
+.create-form input.web-address {
+  display: none;
+}
+
+.create-form input.event {
+  display: none;
+}
+
+.create-form input.nickname {
+  display: none;
+}
+
+.create-form input.relationship {
+  display: none;
+}
+
+.more-content {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  font-size: 40px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 55px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 55px;
+  display: none;
+}
+
